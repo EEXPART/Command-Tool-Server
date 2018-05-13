@@ -16,6 +16,15 @@ A.そのコマンドを使える権限がないか、そのコマンドがある
 
 A.コマンド入力画面の左側にある「ブロックの種類」などの設定をしていない可能性があります。
 
+おまけ
+/executeのdetect
+error2種類
+上手く動作しない　ブロックidを選択して無い。
+エフェクトモードが使えない
+最後をtrueにする
+例
+/execute @a ~ ~ ~ detect ~ ~-1 ~ obsidian 0←ブロックid effect @s poison 10 2 true←必須（エフェクトモードのみ）
+
 > # 関連リンク
 [CTS](https://goo.gl/2sDLTA)  
 [CTS | ヘルプ](https://pisuton.github.io/Command-Tool-Server/help)  
